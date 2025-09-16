@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features Section</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #fff;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .features {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+    }
+
+    .card img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #bbb;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <section class="features">
+    <h2>Everything that actually matters, built in</h2>
+    <div class="grid">
+      
+      <div class="card">
+        <img src="https://via.placeholder.com/50" alt="icon">
+        <h3>Automated migrations</h3>
+        <p>Migrate in minutes with zero engineering.</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://via.placeholder.com/50" alt="icon">
+        <h3>Real-time support</h3>
+        <p>Experts answer your questions in &lt;10 min.</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://via.placeholder.com/50" alt="icon">
+        <h3>Global by design</h3>
+        <p>Invoice and be compliant in 100+ countries.</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://via.placeholder.com/50" alt="icon">
+        <h3>Built-in compliance</h3>
+        <p>Certified e-invoicing ready in 80+ countries.</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://via.placeholder.com/50" alt="icon">
+        <h3>World class infrastructure</h3>
+        <p>99.997% uptime across all environments.</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://via.placeholder.com/50" alt="icon">
+        <h3>Enterprise-grade security</h3>
+        <p>SOC2, ISO27001, and GDPR certified.</p>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
